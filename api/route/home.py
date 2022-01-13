@@ -20,7 +20,7 @@ def upload_gait():
     if file.filename in [data['originalFileName'] for data in existingAdditionalData]:
         return 'File already found in clip', 400
 
-    filepath = os.getcwd() + '/temp/{}'.format(file.filename)
+    filepath = os.getcwd() + file.filename
     file.save(filepath)
 
     result = jurgen_api.uploadAdditionalData(filepath, clip_id, dataType, file.filename)
