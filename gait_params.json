@@ -1,0 +1,25 @@
+{
+  "description": "Spatio temporal parameters ",
+  "data": [
+    {
+      "label": "Gait Speed",
+      "unit": "km/h",
+      "values": {"mean": 3.2}
+    },
+    {
+      "label": "Double Support",
+      "unit": "%",
+      "values": {"mean": 4}
+    },
+    {
+      "label": "Cadence",
+      "unit": "steps/min",
+      "values": {"mean": 5.1}
+    },
+    {
+      "label": "Stride Length",
+      "unit": "m",
+      "values": {"mean": 4.3}
+    }
+  ]
+}
